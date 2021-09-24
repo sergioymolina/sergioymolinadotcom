@@ -34,7 +34,6 @@
     --sm-navbar-height: 132px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;600;700;800&display=swap');
 @-webkit-keyframes sm_animate_icon_right {
     49% {
         -webkit-transform: translateX(100%);
@@ -1057,7 +1056,7 @@ html ::-webkit-scrollbar-thumb {
 }
 
 body {
-    font-family: "Sora";
+    font-family: "Sora" !important;
     font-size: 1rem;
     line-height: 1.625;
     min-width: 20rem;
